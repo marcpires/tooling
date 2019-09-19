@@ -1,0 +1,41 @@
+{
+  "name": "ci-tools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "ci-tools": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "nyc mocha --recursive"
+  },
+  "keywords": [],
+  "author": "Marc Pires <marcpiresrj@gmail.com> (http://www.marcpires.com.br)",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "dirty-chai": "^2.0.1",
+    "eslint": "^6.2.2",
+    "eslint-config-standard": "^14.0.1",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-mocha": "^6.1.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "mocha": "^6.2.0",
+    "nyc": "^14.1.1",
+    "sinon": "^7.4.1"
+  },
+  "dependencies": {
+    "cfonts": "^2.4.5",
+    "chalk": "^2.4.2",
+    "circle-api": "^0.1.0",
+    "cli-spinners": "^2.2.0",
+    "commander": "^3.0.0",
+    "configstore": "^5.0.0",
+    "inquirer": "^7.0.0",
+    "keytar": "^5.0.0-beta.0",
+    "ora": "^3.4.0",
+    "update-notifier": "^3.0.1"
+  }
+}
