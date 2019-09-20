@@ -3,7 +3,7 @@ const dirtyChai = require('dirty-chai')
 const expect = chai.expect
 const sinon = require('sinon')
 const inquirer = require('inquirer')
-const ConfigManager = require('../lib/config-manager')
+const ConfigManager = require('../src/utils/config-manager')
 
 chai.use(dirtyChai)
 
