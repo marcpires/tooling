@@ -1,4 +1,4 @@
-const project = require('./lib/project-types');
+const project = require('./src/utils/project-types');
 const CFonts = require('cfonts');
 const ora = require('ora');
 const spinner = ora('Loading unicorns').start();

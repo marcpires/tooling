@@ -1,5 +1,5 @@
-const ConfigManager = require('../lib/config-manager')
-const package = require('../package.json')
+const ConfigManager = require('./config-manager')
+const package = require('../../package.json')
 
 const config = new ConfigManager(package.name)
 

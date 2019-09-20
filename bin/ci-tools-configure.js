@@ -1,7 +1,7 @@
 const program = require('commander')
 const package = require('../package.json')
-const configure = require('../commands/configure')
-const ConfigManager = require('../lib/config-manager')
+const configure = require('../src/commands/configure')
+const ConfigManager = require('../src/utils/config-manager')
 program.version(package.version)
 
 program
